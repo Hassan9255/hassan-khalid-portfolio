@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfoliot</title>
-
+    <title>Projects | Hassan Khalid</title>
+    <link rel="icon" href="portfolio.png">
     <link rel="stylesheet" href="Styles.css">
 </head>
 
@@ -13,7 +13,7 @@
     <header class="header">
         <!-- for top left side -->
         <div class="left">
-            <img src="portfolio.png" alt="Error">
+            <img src="portfolio.png" alt="Portfolio logo">
         </div>
         <!-- for navbar -->
         <div class="mid">
@@ -29,31 +29,53 @@
         <!-- for top right side -->
         <div class="right">
             <div>Hassan Khalid</div>
-            <div>CS Student</div>
+            <div>AI Engineer</div>
         </div>
     </header>
 
     <div class="pro">
         <h1>Projects I worked on</h1>
-        <p> <h2>Personal Portfolio Website:</h2>
-            "I developed a personal portfolio website to showcase my skills, projects, and experiences. The website
-            features an interactive design, responsive layout, and smooth navigation, built using HTML, CSS, and
-            JavaScript. I implemented a contact form that sends emails directly to my inbox using a PHP backend. This
-            project helped me improve my front-end development skills and understand the basics of user experience
-            design."</p>
-        <p><h2>Weather Forecasting App:</h2>
-            "I created a weather forecasting app that provides real-time weather updates for any location. Using the
-            OpenWeatherMap API, I fetched data such as temperature, humidity, and weather conditions, which were then
-            displayed in a user-friendly interface built with React. This project enhanced my knowledge of API
-            integration, asynchronous JavaScript, and state management in React."</p>
-        <p><h2>Task Management System:</h2> 
-            "I developed a task management system to help users organize their daily activities. The system includes
-            features like task creation, categorization, due dates, and completion tracking. I used Node.js and Express
-            for the backend, MongoDB for data storage, and Angular for the front-end interface. This project allowed me
-            to practice full-stack development and understand the intricacies of RESTful API design."</p>
-            <p><h2>Car Management System:</h2>
-                " The car management system is a console-based Python application designed to efficiently manage a fleet of cars by allowing users to perform various operations such as adding new cars, updating car information, viewing detailed car records, and deleting entries. The system provides a user-friendly interface for managing car attributes like make, model, year, and status (whether the car is available, rented, or under maintenance), helping users to keep track of the fleet's availability and operational condition with ease. Its an ideal solution for small rental companies or personal fleet management."</p>
+        <p> <h2>AI Learning Platform (Final Year Project):</h2>
+            "I developed an AI-powered adaptive learning system that generates quizzes dynamically and tailors
+            assessments to each student's performance. The platform was built with FastAPI on the backend, Next.js on
+            the front-end, and PostgreSQL for data storage, using async SQLAlchemy for responsive database access and
+            JWT authentication for secure user sessions. The result is a modular platform for personalized coding
+            education that is ready for scalable, API-driven deployment."</p>
+        <p><h2>Social Media Backend API:</h2>
+            "I engineered a complete social media backend using FastAPI, providing full CRUD functionality and
+            JWT-based authentication for secure user access control. The PostgreSQL database was architected with the
+            SQLAlchemy ORM and versioned through Alembic migrations, including a post-voting system built on composite
+            primary keys. I also set up a CI/CD pipeline with GitHub Actions and Docker that automates integration
+            testing through Pytest and handles production deployment."</p>
+        <p><h2>Movie Recommendation System:</h2>
+            "I built a movie recommendation system that suggests titles to users based on their viewing preferences.
+            Working in Python with Pandas and Scikit-learn, I cleaned and explored the dataset, engineered features
+            from movie attributes, and applied similarity-based modelling to rank the most relevant recommendations for
+            a given title. The finished model is deployed as an interactive Streamlit app, so anyone can pick a title
+            and see recommendations instantly. This project deepened my understanding of recommender systems, feature
+            engineering, and evaluating model quality on real-world data."</p>
+        <p class="links"><a href="https://movie-recommender-system-tqugu9tqfxabyhv5p4kpmj.streamlit.app/"
+                target="_blank" rel="noopener">Live Demo</a></p>
+        <p><h2>Student Score Prediction:</h2>
+            " The student score prediction project uses machine learning to forecast academic performance from factors
+            such as study habits and prior results. I handled the full workflow in Python, from data cleaning and
+            exploratory analysis with Pandas and Matplotlib through to training and evaluating regression models in
+            Scikit-learn, comparing their accuracy to select the strongest performer. The trained model is deployed as
+            a Streamlit app where users can enter their own inputs and get a predicted score in real time. It
+            strengthened my skills in data analysis, regression modelling, and communicating insights through clear
+            visualisations."</p>
+        <p class="links"><a href="https://hassan9255-student-score-prediction-app-lo6er5.streamlit.app/"
+                target="_blank" rel="noopener">Live Demo</a></p>
     </div>
+
+    <footer class="footer">
+        <p>Hassan Khalid &nbsp;|&nbsp; AI Engineer</p>
+        <p>
+            <a href="mailto:Hassankhalid9255@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/hassankhalid01" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/Hassan9255" target="_blank" rel="noopener">GitHub</a>
+        </p>
+    </footer>
 </body>
 
 </html>
